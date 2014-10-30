@@ -1,0 +1,43 @@
+name = Skeleton
+description = Skeleton Profile
+core = 7.x
+version = VERSION
+;exclusive=TRUE
+
+; Core modules to enable
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = toolbar
+dependencies[] = trigger
+
+; Third modules to enable
+dependencies[] = admin_views
+dependencies[] = module_filter
+dependencies[] = ctools
+dependencies[] = ctools_custom_content
+dependencies[] = page_manager
+dependencies[] = views_content
+dependencies[] = devel
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = panels
+dependencies[] = jquery_update
+dependencies[] = wysiwyg
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui

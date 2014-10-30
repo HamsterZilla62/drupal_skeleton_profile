@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Skeleton Profile
+ * Install file
+ */
+
+/**
+ * Implements hook_install().
+ */
+function skeleton_install(){
+
+  // Deployment
+  _skeleton_deploy("menus");
+  _skeleton_deploy("blocks");
+  _skeleton_deploy("nodes");
+}
