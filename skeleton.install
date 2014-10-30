@@ -5,6 +5,8 @@
  * Install file
  */
 
+include_once DRUPAL_ROOT . '/' . drupal_get_path("profile", "skeleton") . "/skeleton.install_callbacks.inc";
+
 /**
  * Implements hook_install().
  */
