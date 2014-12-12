@@ -19,6 +19,8 @@ projects[] = token
 projects[] = transliteration
 projects[] = wysiwyg
 projects[] = admin_menu
+projects[] = devel
+projects[] = jquery_update
 
 ; Themes
 projects[] = bootstrap
