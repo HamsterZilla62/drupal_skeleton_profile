@@ -2,23 +2,23 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.32"
+projects[] = drupal
 
 ; Modules
-projects[module_filter][version] = "2.0-alpha2"
-projects[ctools][version] = "1.4"
-projects[views][version] = "3.8"
-projects[entity][version] = "1.5"
-projects[admin_views][version] = "1.3"
-projects[views_bulk_operations][version] = "3.2"
-projects[panels][version] = "1.4"
-projects[metatag][version] = "3.4"
-projects[libraries][version] = "2.2"
-projects[pathauto][version] = "1.2"
-projects[token][version] = "1.5"
-projects[transliteration][version] = "3.2"
-projects[wysiwyg][version] = "2.2"
-projects[admin_menu][version] = "3.0-rc4"
+projects[] = module_filter
+projects[] = ctools
+projects[] = views
+projects[] = entity
+projects[] = admin_views
+projects[] = views_bulk_operations
+projects[] = panels
+projects[] = metatag
+projects[] = libraries
+projects[] = pathauto
+projects[] = token
+projects[] = transliteration
+projects[] = wysiwyg
+projects[] = admin_menu
 
 ; Themes
-projects[bootstrap][version] = "3.0"
+projects[] = bootstrap
